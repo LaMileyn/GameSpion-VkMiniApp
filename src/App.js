@@ -74,7 +74,7 @@ const App = () => {
 	useEffect( () =>{
 		const interval = setInterval(() =>{
 			isCounting && setTimeLeft( prev => prev >= 1 ? prev - 1 : 0)
-		},100)
+		},1000)
 		if (timeLeft === 0) setIsCounting(false)
 		return () => clearInterval(interval)
 	},[timeLeft,isCounting])
