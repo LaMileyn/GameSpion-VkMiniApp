@@ -1,0 +1,13 @@
+.main_block_take_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar_not_see_card{
+    width: 150px;
+    height: 150px;
+}
+.btn-underCard{
+    padding: 20px 35px;
+    width: 100%;
+}
